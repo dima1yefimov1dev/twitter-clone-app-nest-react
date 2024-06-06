@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.textArea {
+  padding: 10px;
+  outline: none;
+  resize: none;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.textArea::placeholder {
+  font-size: 20px;
+}
+
+.button {
+  align-self: flex-end;
+  width: 120px;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: royalblue;
+}

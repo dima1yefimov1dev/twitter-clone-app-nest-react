@@ -1,0 +1,91 @@
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: none;
+}
+
+.fileInput {
+  display: none;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.div:last-of-type {
+  margin-bottom: 50px; /* or whatever margin you need */
+}
+
+.fileLabel {
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: url('../../assets/add-image-blue.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 8%;
+}
+
+.box {
+  padding: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.closeBtn {
+  font-weight: bold;
+  font-size: 24px;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.closeBtn:hover {
+  color: white;
+  background-color: lightgray;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.input {
+  padding: 6px;
+  font-weight: 600;
+  border-radius: 15px;
+  outline: none;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.submitBtn {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: lightblue;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.submitBtn:hover {
+  background-color: royalblue;
+}

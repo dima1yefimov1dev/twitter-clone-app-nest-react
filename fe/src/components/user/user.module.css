@@ -1,0 +1,23 @@
+.li {
+  padding: 15px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 8px;
+}

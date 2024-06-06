@@ -1,0 +1,15 @@
+.container {
+  max-width: 650px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  gap: 150px;
+}
+
+.outlet {
+  border-left: 1px solid rgba(211, 211, 211, 0.5);
+  border-right: 1px solid rgba(211, 211, 211, 0.5);
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 20px;
+}

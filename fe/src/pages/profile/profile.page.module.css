@@ -1,0 +1,83 @@
+.wrapper {
+  padding: 10px 15px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.imgWrapper {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.general {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 20px;
+}
+
+.edit_btn {
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+}
+
+.edit_btn:hover {
+  background-color: lightgray;
+  transition: background-color 0.3s ease;
+}
+
+.displayName {
+  font-size: 25px;
+}
+
+.ul {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.7);
+  font-weight: 600;
+  color: gray;
+}
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+.modal {
+  width: 420px;
+  height: 360px;
+  border-radius: 15px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  outline: none;
+  border: none;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; 
+}
